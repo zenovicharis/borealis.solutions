@@ -33,7 +33,7 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "kevin.ohm@gmx.com";
-$Subject = "Borealis Mail";
+$Subject = "New Message Received";
 
 // prepare email body text
 $Body = "";

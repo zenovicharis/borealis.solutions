@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+@font-face {
+	font-family: 'dissolve';
+	src:url('../fonts/Disolve_light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -124,18 +131,20 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 .section-header .section-title2 {
+  font-family: 'dissolve';
   font-size: 42px;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 100;
-  color: #4676fa;
+  color: rgb(255, 255, 255);
   position: relative;
+  letter-spacing: 17px;
 }
 .section-header .section-title2 span {
   color: #ffffff;
 }
 .section-header .section-title span {
-  color: #4676fa;
+  color: #346afe;
 }
 .section-header .section-subtitle {
   margin-top: 15px;
@@ -169,6 +178,7 @@ a:not([href]):not([tabindex]):hover {
   background-color: #fff;
 }
 .logo-menu a {
+  font-family: 'dissolve';
   font-size: 20px;
   color: #fff;
 }
